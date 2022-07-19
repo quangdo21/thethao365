@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thể thao 365 - Báo điện tử Thể Thao 365</title>
+    <link rel="stylesheet" href="./style/TrangCon.css">
+    <link href="./style/chung.css" rel="stylesheet" type="text/css">
+    <link href="./fonts/themify-icons/themify-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="lopBao">
+        <div class="dauTrang">
+            <div class="logo">
+                <div class="chu">
+                    <a href="TrangChu.html">THETHAO365</a>
+                </div>
+            </div>
+            <div class="menu">
+                <!--  -->
+                <div class="menuCon">
+                    <i class="ti-menu"></i>
+                    <div class="menuDoc">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="taiKhoan">
+                </div>
+                <div class="timKiem">
+                    <i class="ti-search"></i>
+                    <div class="thanhTim">
+                        <input type="text" id="inpSearch" placeholder="Tìm kiếm" onkeydown="enTimKiem()">
+                        <a onclick="timkiem()" style="cursor:pointer"><i class="ti-search"></i></a>
+                    </div>
+                </div>
+                <div class="menuNgang">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="noiDung">
+            <div class="trai" id="ndTrai">
+                <div class="bao"><img
+                        src="https://cdn-img.thethao247.vn/origin_865x0/storage/files/ngachelsea/2022/05/06/bang-xep-hang-mon-bong-da-nam-sea-games-31-viet-nam-dung-sau-philippines-133989.jpeg"
+                        alt="Ảnh">
+                    <div class="chiTiet">
+                        <div class="tieuDe"><a href="TrangTin.html?id=5">Bảng xếp hạng môn bóng đá nam SEA
+                                Games 31: Việt Nam ở vị trí nguy hiểm</a></div>
+                        <div class="thoiGian">13/05/2022</div>
+                        <div class="moTaNgan">Cập nhật bảng xếp hạng môn bóng đá nam SEA Games 31 nhanh và chính xác
+                            nhất. U23 Việt Nam rơi xuống vị trí nguy hiểm trên bảng xếp hạng.</div>
+                    </div>
+                </div>
+                <div class="bao"><img
+                        src="https://cdn-img.thethao247.vn/origin_865x0/storage/files/quangduong/2022/05/12/doi-thu-hlv-park-hang-seo-bat-ngo-nhan-qua-truoc-tran-dau-quan-trong-tai-sea-games-136261.jpg"
+                        alt="Ảnh">
+                    <div class="chiTiet">
+                        <div class="tieuDe"><a href="TrangTin.html?id=4">Đối thủ HLV Park Hang Seo bất ngờ
+                                nhận quà trước trận đấu quan trọng tại SEA Games</a></div>
+                        <div class="thoiGian">12/05/2022</div>
+                        <div class="moTaNgan">HLV Shin Tae-yong của U23 Indonesia bất ngờ nhận được quà từ những người
+                            học trò của mình tại SEA Games 31.</div>
+                    </div>
+                </div>
+                <div class="bao"><img
+                        src="https://cdn-img.thethao247.vn/origin_865x0/storage/files/huynguyen/2022/05/13/ad59d31d-a3ac-4f57-9239-c454167360a7-e1652282856918-1652394192.jpeg"
+                        alt="Ảnh">
+                    <div class="chiTiet">
+                        <div class="tieuDe"><a href="TrangTin.html?id=3">ĐT nữ Việt Nam liên tiếp đón tin
+                                vui, tính toán đối thủ ở bán kết SEA Games 31</a></div>
+                        <div class="thoiGian">12/05/2022</div>
+                        <div class="moTaNgan">Chương Thị Kiều và Bích Thùy đều đã bình phục chấn thương và sẵn sàng thi
+                            đấu cho ĐT nữ Việt Nam ở trận gặp Campuchia.</div>
+                    </div>
+                </div>
+                <div class="bao"><img
+                        src="https://cdn-img.thethao247.vn/origin_865x0/storage/files/huynguyen/2022/05/13/280036667_1127018857870055_728342056689554263_n-768x512-1652398271.jpg"
+                        alt="Ảnh">
+                    <div class="chiTiet">
+                        <div class="tieuDe"><a href="TrangTin.html?id=2">ĐT futsal Việt Nam tập thả lỏng,
+                                hướng đến trận đấu gặp Malaysia</a></div>
+                        <div class="thoiGian">12/05/2022</div>
+                        <div class="moTaNgan">Nhằm chuẩn bị cho trận đấu tiếp theo tại SEA Games 31 gặp Malaysia, ĐT
+                            Việt Nam đã có buổi tập nhẹ và thả lỏng vào chiều ngày 12/5.</div>
+                    </div>
+                </div>
+                <div class="bao"><img
+                        src="https://cdn-img.thethao247.vn/origin_865x0/storage/files/ctv_thanhvinh/2022/05/12/webpnet-resizeimage-81-1652358176.jpg"
+                        alt="Ảnh">
+                    <div class="chiTiet">
+                        <div class="tieuDe"><a href="TrangTin.html?id=1">U23 Việt Nam: Quyết chiến vì ngôi
+                                đầu bảng</a></div>
+                        <div class="thoiGian">12/05/2022</div>
+                        <div class="moTaNgan">Nếu muốn nắm lợi thế trong cuộc đua giành tấm vé vào bán kết SEA Games 31
+                            – bộ môn bóng đá nam, U23 Việt Nam buộc phải có chiến thắng trước U23 Myanmar ở trận đấu tới
+                            đây.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="phai">
+                <div class="tieuDe">
+                    <p>Tin mới nhất</p>
+                </div>
+                <div id="ndPhai">
+                    <div class="TDTin"><a href="TrangTin.html?id=5">Bảng xếp hạng môn bóng đá nam SEA Games
+                            31: Việt Nam ở vị trí nguy hiểm</a></div>
+                    <div class="TDTin"><a href="TrangTin.html?id=4">Đối thủ HLV Park Hang Seo bất ngờ nhận
+                            quà trước trận đấu quan trọng tại SEA Games</a></div>
+                    <div class="TDTin"><a href="TrangTin.html?id=3">ĐT nữ Việt Nam liên tiếp đón tin vui,
+                            tính toán đối thủ ở bán kết SEA Games 31</a></div>
+                    <div class="TDTin"><a href="TrangTin.html?id=2">ĐT futsal Việt Nam tập thả lỏng, hướng
+                            đến trận đấu gặp Malaysia</a></div>
+                    <div class="TDTin"><a href="TrangTin.html?id=1">U23 Việt Nam: Quyết chiến vì ngôi đầu
+                            bảng</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cuoiTrang">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="chu">
+                                <a href="TrangChu.html"><i class="ti-basketball"></i>THETHAO365</a>
+                                <h3>Báo điện tử Thể Thao 365 - Cùng nhịp đập thể thao</h3>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="trai">
+                                <div class="tieuDe">Liên hệ</div>
+                                <p>Mọi thông tin chi tiết xin liên hệ</p>
+                                <i class="ti-email"></i>
+                                <i class="ti-facebook"></i>
+                                <i class="ti-youtube"></i>
+                                <i class="ti-twitter-alt"></i>
+                            </div>
+                            <div class="phai">
+                                <div class="tieuDe">Phản hồi</div>
+                                <p>Họ và Tên</p>
+                                <input type="text" name="hoTen" id="hoTen">
+                                <p>Email</p>
+                                <input type="email" name="email" id="email">
+                                <p>Nội dung</p>
+                                <textarea name="noiDung" id="noiDung"></textarea>
+                                <a onclick="gui()">Gửi</a>
+                            </div>
+                            <!--  -->
+                            <div class="sau">
+                                <div class="tieuDe">Liên hệ</div>
+                                <p>Mọi thông tin chi tiết xin liên hệ</p>
+                                <i class="ti-email"></i>
+                                <i class="ti-facebook"></i>
+                                <i class="ti-youtube"></i>
+                                <i class="ti-twitter-alt"></i>
+                            </div>
+                            <!--  -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./js/chung.js"></script>
+    <script src="./js/TrangCon.js"></script>
+</body>
+
+</html>

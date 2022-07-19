@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+<!--    <login-config>
+         Authorization setting for SSL 
+        <auth-method>CLIENT-CERT</auth-method>
+        <realm-name>Client Cert Users-only Area</realm-name>
+    </login-config>
+    <security-constraint>
+         Authorization setting for SSL 
+        <web-resource-collection >
+            <web-resource-name >SSL</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>-->
+    <servlet>
+        <servlet-name>TinTucController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.TinTucController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NguoiDungController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.NguoiDungController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TaiKhoanController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.TaiKhoanController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DangKyController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.DangKyController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DangNhapController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.DangNhapController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DangXuatController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.DangXuatController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>YeuThichController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.YeuThichController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>YKienBanDocController</servlet-name>
+        <servlet-class>com.mycompany.webthethao365.controller.YKienBanDocController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TinTucController</servlet-name>
+        <url-pattern>/api/tintuc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NguoiDungController</servlet-name>
+        <url-pattern>/api/nguoidung</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TaiKhoanController</servlet-name>
+        <url-pattern>/api/taikhoan</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DangKyController</servlet-name>
+        <url-pattern>/api/dangky</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DangNhapController</servlet-name>
+        <url-pattern>/api/dangnhap</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DangXuatController</servlet-name>
+        <url-pattern>/api/dangxuat</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>YeuThichController</servlet-name>
+        <url-pattern>/api/yeuthich</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>YKienBanDocController</servlet-name>
+        <url-pattern>/api/ykien</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

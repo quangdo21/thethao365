@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thể thao 365 - Báo điện tử Thể Thao 365</title>
+    <link rel="stylesheet" href="./style/TrangChu.css">
+    <link href="./style/chung.css" rel="stylesheet" type="text/css">
+    <link href="./fonts/themify-icons/themify-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="lopBao">
+        <div class="dauTrang">
+            <div class="logo">
+                <div class="chu">
+                    <a href="TrangChu.html">THETHAO365</a>
+                </div>
+            </div>
+            <div class="menu">
+                <!--  -->
+                <div class="menuCon">
+                    <i class="ti-menu"></i>
+                    <div class="menuDoc">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="taiKhoan">
+                </div>
+                <div class="timKiem">
+                    <i class="ti-search"></i>
+                    <div class="thanhTim">
+                        <input type="text" id="inpSearch" placeholder="Tìm kiếm" onkeydown="enTimKiem()">
+                        <a onclick="timkiem()" style="cursor:pointer"><i class="ti-search"></i></a>
+                    </div>
+                </div>
+                <div class="menuNgang">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="noiDung">
+            <div class="lopBao">
+                <div class="tieude">
+                    <p><a href="TrangCon.html?id=1">Bóng đá</a></p>
+                </div>
+                <div class="trai" id="traiBD"></div>
+                <div class="phai" id="phaiBD"></div>
+            </div>
+            <div class="lopBao">
+                <div class="tieude">
+                    <p><a href="TrangCon.html?id=1">Bóng chuyền</a></p>
+                </div>
+                <div class="trai" id="traiBC"></div>
+                <div class="phai" id="phaiBC"></div>
+            </div>
+            <div class="lopBao">
+                <div class="tieude">
+                    <p><a href="TrangCon.html?id=1">Bóng rổ</a></p>
+                </div>
+                <div class="trai" id="traiBR"></div>
+                <div class="phai" id="phaiBR"></div>
+            </div>
+            <div class="lopBao">
+                <div class="tieude">
+                    <p><a href="TrangCon.html?id=1">Esports</a></p>
+                </div>
+                <div class="trai" id="traiE"></div>
+                <div class="phai" id="phaiE"></div>
+            </div>
+        </div>
+
+        <div class="cuoiTrang">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="chu">
+                                <a href="TrangChu.html"><i class="ti-basketball"></i>THETHAO365</a>
+                                <h3>Báo điện tử Thể Thao 365 - Cùng nhịp đập thể thao</h3>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="trai">
+                                <div class="tieuDe">Liên hệ</div>
+                                <p>Mọi thông tin chi tiết xin liên hệ</p>
+                                <i class="ti-email"></i>
+                                <i class="ti-facebook"></i>
+                                <i class="ti-youtube"></i>
+                                <i class="ti-twitter-alt"></i>
+                            </div>
+                            <div class="phai">
+                                <div class="tieuDe">Phản hồi</div>
+                                <p>Họ và Tên</p>
+                                <input type="text" name="hoTen" id="hoTen">
+                                <p>Email</p>
+                                <input type="email" name="email" id="email">
+                                <p>Nội dung</p>
+                                <textarea name="noiDung" id="noiDung"></textarea>
+                                <a onclick="gui()">Gửi</a>
+                            </div>
+                            <!--  -->
+                            <div class="sau">
+                                <div class="tieuDe">Liên hệ</div>
+                                <p>Mọi thông tin chi tiết xin liên hệ</p>
+                                <i class="ti-email"></i>
+                                <i class="ti-facebook"></i>
+                                <i class="ti-youtube"></i>
+                                <i class="ti-twitter-alt"></i>
+                            </div>
+                            <!--  -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./js/chung.js"></script>
+    <script src="./js/TrangChu.js"></script>
+</body>
+
+</html>
